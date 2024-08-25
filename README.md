@@ -85,21 +85,21 @@
 To run NetflixGPT locally and start exploring its features, follow these steps:
 
 1. **Clone the repository to your local machine**:
-...bash
+```bash
 git clone https://github.com/yourusername/NetflixGPT.git
-...
+```
 
 2. **Navigate to the project directory**:
-...bash
+```bash
 cd NetflixGPT
-...
+```
 
 3. **Install the required dependencies**:
-...bash
+```bash
 npm install
-...
+```
 
 4. **Start the development server**:
-...bash
+```bash
 npm start
-...
+```
