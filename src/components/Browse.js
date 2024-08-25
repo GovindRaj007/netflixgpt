@@ -8,6 +8,7 @@ import useTopRatedMovies from '../hooks/useTopRatedMovies';
 import useUpcomingMovies from '../hooks/useUpcomingMovies';
 import GptSearch from './GptSearchPage';
 import { useSelector } from 'react-redux';
+import Footer from './Footer';
 
 
 const Browse = () => {
@@ -27,6 +28,7 @@ const Browse = () => {
                     <SecondaryContainer />
                 </>)
             }
+            <Footer />
 
         </>
     )
@@ -40,6 +42,7 @@ export default Browse;
             SecondaryContainer
                 - MovieList * n
                     -cards * n
+            Footer        
              
              */
 
