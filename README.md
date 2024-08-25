@@ -1,7 +1,7 @@
 # Welcome to NetflixGPT 👋
 **NetflixGPT** is a web application that leverages the power of GeminiAI to enhance your Netflix experience. With this project, you can generate personalized movie and TV show recommendations based on your preferences, engage in natural language conversations to discover new content, and get detailed information about your favorite shows and movies.
 
-# Technologies Used
+## Technologies Used
 **NetflixGPT** is built using a combination of modern web technologies and services:
 
 - **React**: NetflixGPT is primarily built using React, a popular JavaScript library for building user interfaces.
@@ -10,14 +10,14 @@
 - **Firebase**: Firebase is used for user authentication, ensuring secure access to personalized recommendations and conversation history.
 - **GeminiAI**: The heart of NetflixGPT is powered by GeminiAI, which enables natural language understanding and conversation generation.
 
-# Features
+## Features
 - **Personalized Recommendations**: Receive movie and TV show recommendations tailored to your interests and preferences.
 - **Natural Language Conversations**: Engage in meaningful conversations with the AI to discover new content or get recommendations.
 - **Detailed Information**: Access detailed information about movies and TV shows, including cast, ratings, and synopsis.
 - **Secure Authentication**: User authentication is handled through Firebase, ensuring your data and interactions are safe and secure.
 
 
-# Steps on how this project was created 🌠
+## Steps on how this project was created 🌠
 - create react app --> npx create-react-app netflix-gpt
 - configured tailwindcss
 - Header
@@ -51,7 +51,7 @@
 - (feature) Multi-language feature in the app
 - Integrate
 
-# firebase setup
+## Firebase setup
 
 - create project
   - npm install firebase
@@ -65,7 +65,7 @@
   - npm run build
   - firebase deploy
 
-# Features
+## WebPage Framing
 
 - Login/Sign up
   - Sign In/Sign up Form
@@ -81,7 +81,7 @@
   - Search Bar
   - Movie suggestions
 
-# Getting Started 🌟
+## Getting Started 🌟
 To run NetflixGPT locally and start exploring its features, follow these steps:
 
 1. **Clone the repository to your local machine**:
@@ -103,9 +103,9 @@ npm install
 ```bash
 npm start
 ```
-# Contributing
-1.Fork the repository.
-2.Create a new branch for your feature or bug fix.
-3.Make your changes and ensure the code style is consistent.
-4.Test your changes thoroughly.
-5.Create a pull request with a clear description of your changes.
+## Contributing
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and ensure the code style is consistent.
+4. Test your changes thoroughly.
+5. Create a pull request with a clear description of your changes.
