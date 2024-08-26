@@ -12,7 +12,7 @@ const useNowPlayingMovies = () => {
     const getNowPlayingMovies = async () => {
         const data = await fetch('https://api.themoviedb.org/3/movie/now_playing?page=1', TMDB_API_OPTIONS)
         const json = await data.json();
-        console.log(json, "nowPlayingMovies");
+        // console.log(json, "nowPlayingMovies");
         dispatch(addNowPlayingMovies(json.results));
     }
     useEffect(() => {

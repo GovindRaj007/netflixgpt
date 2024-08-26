@@ -13,7 +13,9 @@ const GptMovieSuggestions = () => {
                 {movieNames.map((movie, index) => <MovieList key={movie} title={movie} movies={movieResults[index]} />)
                 }
             </div>
+
         </div>
+
     )
 }
 

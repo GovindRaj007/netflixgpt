@@ -15,7 +15,7 @@ const GptSearchBar = () => {
         const data = await fetch('https://api.themoviedb.org/3/search/movie?query=' + movie + '&include_adult=false&language=en-US&page=1', TMDB_API_OPTIONS);
         const json = await data.json();
         const result = json?.results;
-        console.log(result, "searchedMovie");
+        // console.log(result, "searchedMovie");
 
         return result;
 
@@ -33,14 +33,14 @@ const GptSearchBar = () => {
         // console.log(text, "gpt-response");
 
         const gptMovies = text.split(",");
-        console.log(gptMovies, "gptmovies");
+        // console.log(gptMovies, "gptmovies");
 
 
         //For each movie, search api
         const promiseArray = gptMovies.map(movie => searchMovie(movie));  //returns [promise,promise,promise,promise,promise] as searchMovie is still fetching promised data 
 
         const movieSearchResults = await Promise.all(promiseArray); //waits untill all the promises got resolved(gave promised data)
-        console.log(movieSearchResults, "moviesearchresults");
+        // console.log(movieSearchResults, "moviesearchresults");
 
         dispatch(addGptSearchResult({ movieNames: gptMovies, movieResults: movieSearchResults }));
     };

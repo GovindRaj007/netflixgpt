@@ -26,9 +26,11 @@ const Browse = () => {
                 <>
                     <MainContainer />
                     <SecondaryContainer />
+
                 </>)
             }
-            <Footer />
+            {!showGptSearch && <Footer />}
+
 
         </>
     )
