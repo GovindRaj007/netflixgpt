@@ -9,7 +9,8 @@ export const TMDB_API_OPTIONS = {
         Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMzA5NzIzNTM4MjVmMWEwM2NmNDEzOTRkMDI0MDdiYiIsIm5iZiI6MTcyMzcwNTg1My4yNDE2MDQsInN1YiI6IjY2Yjg0YmZjOTdiZjQ0NDgyM2YyYmYyNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.MCd88lun9M7lGVRla92qLCgFURtr7S5hVt1nj_zwGuE',
     }
 };
-export const GEMINI_AI_KEY = 'AIzaSyBu1pBiFA2hnhjrMdbDmBoss55ec-aAYpo';
+export const GEMINI_AI_KEY = 'AIzaSyCRevPSp4gU_GGxVPeuP212WF3cEURL1dc';
+
 
 // export const RAPID_API_OPTIONS = {
 //     method: 'GET',
