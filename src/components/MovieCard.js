@@ -16,7 +16,10 @@ const MovieCard = ({ id, posterPath }) => {
     const getMovieVideo = async () => {
         const data = await fetch("https://api.themoviedb.org/3/movie/" + id + "/videos?language=en-US", TMDB_API_OPTIONS);
         const json = await data.json();
-        const filteredData = json?.results.filter(video => video.type === "Trailer");
+        const filteredData = json?.results.filter(video => video.type === "Trailer" || video.type === "Official Trailer" ||
+            video.type === "Teaser" ||
+            video.type === "Featurette" ||
+            video.type.toLowerCase().includes("trailer"));
         const trailer = filteredData[0];
         setTrailerId(trailer?.key);
 
